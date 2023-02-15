@@ -215,6 +215,7 @@ h5{
         "ofertas ofertas "
         ;
     }
+    /*!
     .navegacion{
         list-style: none;
         display: flex;
@@ -225,6 +226,7 @@ h5{
     .navegacion li {
         margin: 10px;
     }
+    */
 }
 @media screen and (max-width: 760px) {
     footer{
