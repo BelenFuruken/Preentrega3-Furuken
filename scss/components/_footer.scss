@@ -1,0 +1,51 @@
+@import "../base/generales";
+footer{
+    margin-top: 10px;
+    height: 180px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "ubi redes suscrip";
+    .ubi{
+        grid-area: ubi;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        margin-left: 15px;
+        div{
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .redes{
+        grid-area: redes;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        .circulo{
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            img{
+                width: 60%;
+            }
+        }
+    }
+    .suscrip{
+        input{
+            margin: 5px;
+            height: 23px;
+            width: 50%;
+        }
+        button{
+            padding: 5px;
+            margin: 10px;
+            width: 20%;
+            height: 30px;
+        }
+    }
+}

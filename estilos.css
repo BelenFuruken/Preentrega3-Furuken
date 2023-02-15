@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+a {
+  text-decoration: none; }
+
+.ajuste_img {
+  object-fit: cover; }
+
+h5 {
+  font-size: medium;
+  color: white;
+  margin: 10px; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+a {
+  text-decoration: none; }
+
+.ajuste_img {
+  object-fit: cover; }
+
+h5 {
+  font-size: medium;
+  color: white;
+  margin: 10px; }
+
+footer {
+  margin-top: 10px;
+  height: 180px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "ubi redes suscrip"; }
+  footer .ubi {
+    grid-area: ubi;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-left: 15px; }
+    footer .ubi div {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px; }
+  footer .redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; }
+    footer .redes .circulo {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px; }
+      footer .redes .circulo img {
+        width: 60%; }
+  footer .suscrip input {
+    margin: 5px;
+    height: 23px;
+    width: 50%; }
+  footer .suscrip button {
+    padding: 5px;
+    margin: 10px;
+    width: 20%;
+    height: 30px; }
