@@ -105,6 +105,9 @@ h5{
 .circulo img{
     width: 60%;
 }
+
+
+/*!   IMAGENES   */
 .imagenes{
     width: 100%;
     margin: 20px;
@@ -123,7 +126,6 @@ h5{
 }
 .div_img:hover{
     width: 400px;
-
 }
 .fuente_logo{
     font-family: 'Bevan', cursive;

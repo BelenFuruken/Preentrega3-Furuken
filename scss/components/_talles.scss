@@ -1,0 +1,17 @@
+section{
+    h2{
+        margin: 20px;
+    }
+    .talles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            img{
+                width: 500px;
+            }
+        }
+    }
+}

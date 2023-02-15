@@ -97,6 +97,8 @@ p{
     height: 30px;
     width: 25%;
 }
+
+/*!
 .circulo{
     border-radius: 50%;
     width: 70px;
@@ -112,6 +114,7 @@ p{
     flex-direction: row;
     justify-content: start;
 }
+*/
 
 /*!   FOOTER   */
 footer{

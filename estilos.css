@@ -13,6 +13,9 @@ h5 {
   color: white;
   margin: 10px; }
 
+nav .fuente_logo {
+  font-size: 50px; }
+
 * {
   margin: 0%;
   padding: 0%; }
@@ -68,3 +71,169 @@ footer {
     margin: 10px;
     width: 20%;
     height: 30px; }
+
+body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  body div img {
+    width: 70%; }
+
+body section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 450px;
+  gap: 5px;
+  grid-template-areas: "n_col n_col n_col" "remeras casacas hoodies" "remeras accesorios hoodies" "ofertas ofertas ofertas"; }
+  body section .remeras {
+    grid-area: remeras;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .remeras a {
+      width: 100%;
+      height: 100%; }
+      body section .remeras a img {
+        height: 100%;
+        width: 100%; }
+  body section .hoodies {
+    grid-area: hoodies;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .hoodies a {
+      width: 100%;
+      height: 100%; }
+      body section .hoodies a img {
+        height: 100%;
+        width: 100%; }
+  body section .accesorios {
+    grid-area: accesorios;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .accesorios a {
+      width: 100%;
+      height: 100%; }
+      body section .accesorios a img {
+        height: 100%;
+        width: 100%; }
+  body section .casacas {
+    grid-area: casacas;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .casacas a {
+      width: 100%;
+      height: 100%; }
+      body section .casacas a img {
+        height: 100%;
+        width: 100%; }
+  body section .ofertas {
+    grid-area: ofertas;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .ofertas a {
+      width: 100%;
+      height: 100%; }
+      body section .ofertas a img {
+        height: 100%;
+        width: 100%; }
+  body section .n_col {
+    grid-area: n_col;
+    background-color: #423f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    body section .n_col a {
+      width: 100%;
+      height: 100%; }
+      body section .n_col a img {
+        height: 100%;
+        width: 100%; }
+
+section .flex_conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  section .flex_conteiner div {
+    width: 300px;
+    transition-property: all;
+    transition-duration: 1s; }
+    section .flex_conteiner div .div_img:hover {
+      width: 400px; }
+    section .flex_conteiner div img {
+      width: 300px;
+      transition-property: all;
+      transition-duration: 1s;
+      width: 100%;
+      margin: 20px; }
+
+section h2 {
+  margin: 20px; }
+
+section .talles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+  section .talles div img {
+    width: 500px; }
+
+img {
+  width: 100%;
+  height: 500px; }
+
+section {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  grid-template-areas: "formulario redes"; }
+  section .formulario {
+    grid-area: formulario; }
+    section .formulario h4 {
+      font-size: 18px;
+      margin: 15px 0px 3px 0px; }
+    section .formulario .input_comun {
+      height: 30px;
+      width: 85%; }
+    section .formulario .input_mensajes {
+      height: 95px;
+      width: 85%; }
+    section .formulario button {
+      display: block;
+      margin-top: 15px;
+      height: 30px;
+      width: 25%; }
+  section .redes {
+    grid-area: redes; }
+    section .redes .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+      section .redes .info h4 {
+        font-size: 18px;
+        margin: 15px 0px 3px 0px; }
+      section .redes .info p {
+        font-size: 15px;
+        margin: 20px; }
