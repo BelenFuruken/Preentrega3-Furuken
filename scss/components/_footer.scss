@@ -2,7 +2,7 @@
 footer{
     margin-top: 10px;
     height: 180px;
-    background-color: black;
+    background-color: nth($colores_principales, 1 );
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
