@@ -30,6 +30,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: start;
+    flex-wrap: wrap;
     margin-left: 15px; }
     footer .ubi .circulo {
       border-radius: 50%;
@@ -44,7 +45,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
     footer .redes div {
       border-radius: 50%;
       width: 70px;
@@ -68,7 +70,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
     footer .suscrip .input_footer {
       margin: 5px;
       height: 23px;
@@ -83,7 +86,8 @@ body .portada {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
   body .portada img {
     width: 70%; }
 
@@ -99,54 +103,54 @@ body .grid_conteiner_inicio {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .remeras a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   body .grid_conteiner_inicio .hoodies {
     grid-area: hoodies; }
     body .grid_conteiner_inicio .hoodies a {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .hoodies a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   body .grid_conteiner_inicio .accesorios {
     grid-area: accesorios; }
     body .grid_conteiner_inicio .accesorios a {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .accesorios a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   body .grid_conteiner_inicio .casacas {
     grid-area: casacas; }
     body .grid_conteiner_inicio .casacas a {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .casacas a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   body .grid_conteiner_inicio .ofertas {
     grid-area: ofertas; }
     body .grid_conteiner_inicio .ofertas a {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .ofertas a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   body .grid_conteiner_inicio .n_col {
     grid-area: n_col; }
     body .grid_conteiner_inicio .n_col a {
       width: 100%;
       height: 100%; }
       body .grid_conteiner_inicio .n_col a img {
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
 
 .section_galeria div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap; }
   .section_galeria div .div_img {
     width: 300px;
@@ -167,9 +171,9 @@ body .grid_conteiner_inicio {
 .sect_talles .talles {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
-  align-items: center; }
+  flex-wrap: wrap; }
   .sect_talles .talles div img {
     width: 500px; }
 
@@ -205,8 +209,9 @@ body .sect_contactos {
     body .sect_contactos .redes .info {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
       height: 100%; }
       body .sect_contactos .redes .info h4 {
         font-size: 18px;

@@ -3,11 +3,7 @@
         margin: 20px;
     }
     .talles{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        @include flex (flex, row, center, space-around, wrap);
         div{
             img{
                 width: 500px;
