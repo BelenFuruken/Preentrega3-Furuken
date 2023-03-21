@@ -13,6 +13,7 @@ footer{
         margin-left: 15px;
         .circulo{
             @include footer_redes (50%, 70px, 70px);
+            @include flex (flex, row, center, center, wrap);
             img{
                 width: 60%;
             }
@@ -26,18 +27,21 @@ footer{
         @include flex (flex, row, center, space-evenly, wrap);
         div{
             @include footer_redes (50%, 70px, 70px);
+            @include flex (flex, row, center, center, wrap);
             img{
                 width: 60%;
             }
         }
         div{
             @include footer_redes (50%, 70px, 70px);
+            @include flex (flex, row, center, center, wrap);
             img{
                 width: 60%;
             }
         }
         div{
             @include footer_redes (50%, 70px, 70px);
+            @include flex (flex, row, center, center, wrap);
             img{
                 width: 60%;
             }
@@ -52,10 +56,7 @@ footer{
             width: 50%;
         }
         .btn_footer{
-            padding: 5px;
             margin: 10px;
-            width: 20%;
-            height: 30px;
         }
     }
 }

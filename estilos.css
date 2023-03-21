@@ -10,8 +10,13 @@ a {
 
 h5 {
   font-size: medium;
-  color: white;
-  margin: 10px; }
+  color: white; }
+
+.fuente_logo {
+  font-family: 'Russo One', sans-serif; }
+
+.fuente_nav {
+  font-family: 'Chakra Petch', sans-serif; }
 
 nav .fuente_logo {
   font-size: 50px; }
@@ -35,7 +40,12 @@ footer {
     footer .ubi .circulo {
       border-radius: 50%;
       width: 70px;
-      height: 70px; }
+      height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
       footer .ubi .circulo img {
         width: 60%; }
     footer .ubi h5 {
@@ -50,19 +60,34 @@ footer {
     footer .redes div {
       border-radius: 50%;
       width: 70px;
-      height: 70px; }
+      height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
       footer .redes div img {
         width: 60%; }
     footer .redes div {
       border-radius: 50%;
       width: 70px;
-      height: 70px; }
+      height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
       footer .redes div img {
         width: 60%; }
     footer .redes div {
       border-radius: 50%;
       width: 70px;
-      height: 70px; }
+      height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
       footer .redes div img {
         width: 60%; }
   footer .suscrip {
@@ -77,10 +102,7 @@ footer {
       height: 23px;
       width: 50%; }
     footer .suscrip .btn_footer {
-      padding: 5px;
-      margin: 10px;
-      width: 20%;
-      height: 30px; }
+      margin: 10px; }
 
 body .portada {
   display: flex;
@@ -187,7 +209,7 @@ body .sect_contactos {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 20px;
-  grid-template-areas: "formulario redes"; }
+  grid-template-areas: "formulario info"; }
   body .sect_contactos .formulario {
     grid-area: formulario; }
     body .sect_contactos .formulario h4 {
@@ -204,21 +226,20 @@ body .sect_contactos {
       margin-top: 15px;
       height: 30px;
       width: 25%; }
-  body .sect_contactos .redes {
-    grid-area: redes; }
-    body .sect_contactos .redes .info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      height: 100%; }
-      body .sect_contactos .redes .info h4 {
-        font-size: 18px;
-        margin: 15px 0px 3px 0px; }
-      body .sect_contactos .redes .info p {
-        font-size: 15px;
-        margin: 20px; }
+  body .sect_contactos .info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%; }
+    body .sect_contactos .info h4 {
+      font-size: 18px;
+      margin: 15px 0px 3px 0px; }
+    body .sect_contactos .info p {
+      font-size: 15px;
+      margin: 20px; }
 
 /*!   INICIO   */
 @media screen and (max-width: 1100px) {
@@ -255,4 +276,4 @@ body .sect_contactos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 20px;
-    grid-template-areas: "formulario formulario" "redes redes"; } }
+    grid-template-areas: "formulario formulario" "info info"; } }

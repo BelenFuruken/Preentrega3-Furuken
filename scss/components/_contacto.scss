@@ -10,7 +10,7 @@ body{
         grid-template-rows: 1fr;
         gap: 20px;
         grid-template-areas: 
-        "formulario redes"
+        "formulario info"
         ;
         .formulario{
             grid-area: formulario;
@@ -33,19 +33,17 @@ body{
                 width: 25%;
             }
         }
-        .redes{
-            grid-area: redes;
-            .info{
-                @include flex (flex, column, center, center, wrap);
-                height: 100%;
-                h4{
-                    font-size: 18px;
-                    margin: 15px 0px 3px 0px;
-                }
-                p{
-                    font-size: 15px;
-                    margin: 20px;
-                }
+        .info{
+            grid-area: info;
+            @include flex (flex, column, center, center, wrap);
+            height: 100%;
+            h4{
+                font-size: 18px;
+                margin: 15px 0px 3px 0px;
+            }
+            p{
+                font-size: 15px;
+                margin: 20px;
             }
         }
     }
